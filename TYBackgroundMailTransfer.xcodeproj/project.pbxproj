@@ -15,18 +15,16 @@
 		0044B05A1D5B10D0009BDA8B /* TYBackgroundMailTransferTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044B0591D5B10D0009BDA8B /* TYBackgroundMailTransferTests.m */; };
 		0044B0651D5B10D0009BDA8B /* TYBackgroundMailTransferUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044B0641D5B10D0009BDA8B /* TYBackgroundMailTransferUITests.m */; };
 		0044B0741D5B1121009BDA8B /* TYMailSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044B0731D5B1121009BDA8B /* TYMailSender.m */; };
-		0044B08F1D5B1128009BDA8B /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044B0761D5B1128009BDA8B /* SVIndefiniteAnimatedView.m */; };
-		0044B0901D5B1128009BDA8B /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044B0781D5B1128009BDA8B /* SVProgressAnimatedView.m */; };
-		0044B0911D5B1128009BDA8B /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044B07A1D5B1128009BDA8B /* SVProgressHUD.m */; };
-		0044B0921D5B1128009BDA8B /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044B07C1D5B1128009BDA8B /* SVRadialGradientLayer.m */; };
-		0044B0931D5B1128009BDA8B /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0044B07D1D5B1128009BDA8B /* SVProgressHUD.bundle */; };
-		0044B0941D5B1128009BDA8B /* SVProgressHUD.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0044B07F1D5B1128009BDA8B /* SVProgressHUD.xcconfig */; };
-		0044B0951D5B1128009BDA8B /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044B0801D5B1128009BDA8B /* SVProgressHUD-dummy.m */; };
-		0044B0961D5B1128009BDA8B /* Base64Transcoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044B0851D5B1128009BDA8B /* Base64Transcoder.m */; };
-		0044B0971D5B1128009BDA8B /* HSK_CFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044B0871D5B1128009BDA8B /* HSK_CFUtilities.m */; };
-		0044B0981D5B1128009BDA8B /* NSData+Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044B0891D5B1128009BDA8B /* NSData+Base64Additions.m */; };
-		0044B0991D5B1128009BDA8B /* NSStream+SKPSMTPExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044B08B1D5B1128009BDA8B /* NSStream+SKPSMTPExtensions.m */; };
-		0044B09A1D5B1128009BDA8B /* SKPSMTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044B08D1D5B1128009BDA8B /* SKPSMTPMessage.m */; };
+		0044B0C21D5B1B43009BDA8B /* Base64Transcoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044B0B91D5B1B43009BDA8B /* Base64Transcoder.m */; };
+		0044B0C31D5B1B43009BDA8B /* HSK_CFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044B0BB1D5B1B43009BDA8B /* HSK_CFUtilities.m */; };
+		0044B0C41D5B1B43009BDA8B /* NSData+Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044B0BD1D5B1B43009BDA8B /* NSData+Base64Additions.m */; };
+		0044B0C51D5B1B43009BDA8B /* NSStream+SKPSMTPExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044B0BF1D5B1B43009BDA8B /* NSStream+SKPSMTPExtensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0044B0C61D5B1B43009BDA8B /* SKPSMTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044B0C11D5B1B43009BDA8B /* SKPSMTPMessage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0044B0D01D5B1B55009BDA8B /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044B0C81D5B1B55009BDA8B /* SVIndefiniteAnimatedView.m */; };
+		0044B0D11D5B1B55009BDA8B /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044B0CA1D5B1B55009BDA8B /* SVProgressAnimatedView.m */; };
+		0044B0D21D5B1B55009BDA8B /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0044B0CB1D5B1B55009BDA8B /* SVProgressHUD.bundle */; };
+		0044B0D31D5B1B55009BDA8B /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044B0CD1D5B1B55009BDA8B /* SVProgressHUD.m */; };
+		0044B0D41D5B1B55009BDA8B /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044B0CF1D5B1B55009BDA8B /* SVRadialGradientLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,28 +61,25 @@
 		0044B0661D5B10D0009BDA8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0044B0721D5B1121009BDA8B /* TYMailSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYMailSender.h; sourceTree = "<group>"; };
 		0044B0731D5B1121009BDA8B /* TYMailSender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYMailSender.m; sourceTree = "<group>"; };
-		0044B0751D5B1128009BDA8B /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
-		0044B0761D5B1128009BDA8B /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
-		0044B0771D5B1128009BDA8B /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
-		0044B0781D5B1128009BDA8B /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
-		0044B0791D5B1128009BDA8B /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
-		0044B07A1D5B1128009BDA8B /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
-		0044B07B1D5B1128009BDA8B /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
-		0044B07C1D5B1128009BDA8B /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
-		0044B07D1D5B1128009BDA8B /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
-		0044B07F1D5B1128009BDA8B /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
-		0044B0801D5B1128009BDA8B /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		0044B0811D5B1128009BDA8B /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		0044B0841D5B1128009BDA8B /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
-		0044B0851D5B1128009BDA8B /* Base64Transcoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64Transcoder.m; sourceTree = "<group>"; };
-		0044B0861D5B1128009BDA8B /* HSK_CFUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSK_CFUtilities.h; sourceTree = "<group>"; };
-		0044B0871D5B1128009BDA8B /* HSK_CFUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSK_CFUtilities.m; sourceTree = "<group>"; };
-		0044B0881D5B1128009BDA8B /* NSData+Base64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64Additions.h"; sourceTree = "<group>"; };
-		0044B0891D5B1128009BDA8B /* NSData+Base64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64Additions.m"; sourceTree = "<group>"; };
-		0044B08A1D5B1128009BDA8B /* NSStream+SKPSMTPExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSStream+SKPSMTPExtensions.h"; sourceTree = "<group>"; };
-		0044B08B1D5B1128009BDA8B /* NSStream+SKPSMTPExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSStream+SKPSMTPExtensions.m"; sourceTree = "<group>"; };
-		0044B08C1D5B1128009BDA8B /* SKPSMTPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPSMTPMessage.h; sourceTree = "<group>"; };
-		0044B08D1D5B1128009BDA8B /* SKPSMTPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPSMTPMessage.m; sourceTree = "<group>"; };
+		0044B0B81D5B1B3B009BDA8B /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
+		0044B0B91D5B1B43009BDA8B /* Base64Transcoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64Transcoder.m; sourceTree = "<group>"; };
+		0044B0BA1D5B1B43009BDA8B /* HSK_CFUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSK_CFUtilities.h; sourceTree = "<group>"; };
+		0044B0BB1D5B1B43009BDA8B /* HSK_CFUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSK_CFUtilities.m; sourceTree = "<group>"; };
+		0044B0BC1D5B1B43009BDA8B /* NSData+Base64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64Additions.h"; sourceTree = "<group>"; };
+		0044B0BD1D5B1B43009BDA8B /* NSData+Base64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64Additions.m"; sourceTree = "<group>"; };
+		0044B0BE1D5B1B43009BDA8B /* NSStream+SKPSMTPExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSStream+SKPSMTPExtensions.h"; sourceTree = "<group>"; };
+		0044B0BF1D5B1B43009BDA8B /* NSStream+SKPSMTPExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSStream+SKPSMTPExtensions.m"; sourceTree = "<group>"; };
+		0044B0C01D5B1B43009BDA8B /* SKPSMTPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPSMTPMessage.h; sourceTree = "<group>"; };
+		0044B0C11D5B1B43009BDA8B /* SKPSMTPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPSMTPMessage.m; sourceTree = "<group>"; };
+		0044B0C71D5B1B55009BDA8B /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		0044B0C81D5B1B55009BDA8B /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		0044B0C91D5B1B55009BDA8B /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		0044B0CA1D5B1B55009BDA8B /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		0044B0CB1D5B1B55009BDA8B /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		0044B0CC1D5B1B55009BDA8B /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		0044B0CD1D5B1B55009BDA8B /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		0044B0CE1D5B1B55009BDA8B /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		0044B0CF1D5B1B55009BDA8B /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,8 +134,25 @@
 				0044B0431D5B10CF009BDA8B /* AppDelegate.m */,
 				0044B0721D5B1121009BDA8B /* TYMailSender.h */,
 				0044B0731D5B1121009BDA8B /* TYMailSender.m */,
-				0044B0831D5B1128009BDA8B /* SVProgressHUD */,
-				0044B08E1D5B1128009BDA8B /* MailSource */,
+				0044B0B81D5B1B3B009BDA8B /* Base64Transcoder.h */,
+				0044B0B91D5B1B43009BDA8B /* Base64Transcoder.m */,
+				0044B0BA1D5B1B43009BDA8B /* HSK_CFUtilities.h */,
+				0044B0BB1D5B1B43009BDA8B /* HSK_CFUtilities.m */,
+				0044B0BC1D5B1B43009BDA8B /* NSData+Base64Additions.h */,
+				0044B0BD1D5B1B43009BDA8B /* NSData+Base64Additions.m */,
+				0044B0BE1D5B1B43009BDA8B /* NSStream+SKPSMTPExtensions.h */,
+				0044B0BF1D5B1B43009BDA8B /* NSStream+SKPSMTPExtensions.m */,
+				0044B0C01D5B1B43009BDA8B /* SKPSMTPMessage.h */,
+				0044B0C11D5B1B43009BDA8B /* SKPSMTPMessage.m */,
+				0044B0C71D5B1B55009BDA8B /* SVIndefiniteAnimatedView.h */,
+				0044B0C81D5B1B55009BDA8B /* SVIndefiniteAnimatedView.m */,
+				0044B0C91D5B1B55009BDA8B /* SVProgressAnimatedView.h */,
+				0044B0CA1D5B1B55009BDA8B /* SVProgressAnimatedView.m */,
+				0044B0CB1D5B1B55009BDA8B /* SVProgressHUD.bundle */,
+				0044B0CC1D5B1B55009BDA8B /* SVProgressHUD.h */,
+				0044B0CD1D5B1B55009BDA8B /* SVProgressHUD.m */,
+				0044B0CE1D5B1B55009BDA8B /* SVRadialGradientLayer.h */,
+				0044B0CF1D5B1B55009BDA8B /* SVRadialGradientLayer.m */,
 				0044B0481D5B10CF009BDA8B /* Main.storyboard */,
 				0044B04B1D5B10D0009BDA8B /* Assets.xcassets */,
 				0044B04D1D5B10D0009BDA8B /* LaunchScreen.storyboard */,
@@ -174,61 +186,6 @@
 				0044B0661D5B10D0009BDA8B /* Info.plist */,
 			);
 			path = TYBackgroundMailTransferUITests;
-			sourceTree = "<group>";
-		};
-		0044B07E1D5B1128009BDA8B /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				0044B07D1D5B1128009BDA8B /* SVProgressHUD.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		0044B0821D5B1128009BDA8B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0044B07F1D5B1128009BDA8B /* SVProgressHUD.xcconfig */,
-				0044B0801D5B1128009BDA8B /* SVProgressHUD-dummy.m */,
-				0044B0811D5B1128009BDA8B /* SVProgressHUD-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SVProgressHUD";
-			sourceTree = "<group>";
-		};
-		0044B0831D5B1128009BDA8B /* SVProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				0044B0751D5B1128009BDA8B /* SVIndefiniteAnimatedView.h */,
-				0044B0761D5B1128009BDA8B /* SVIndefiniteAnimatedView.m */,
-				0044B0771D5B1128009BDA8B /* SVProgressAnimatedView.h */,
-				0044B0781D5B1128009BDA8B /* SVProgressAnimatedView.m */,
-				0044B0791D5B1128009BDA8B /* SVProgressHUD.h */,
-				0044B07A1D5B1128009BDA8B /* SVProgressHUD.m */,
-				0044B07B1D5B1128009BDA8B /* SVRadialGradientLayer.h */,
-				0044B07C1D5B1128009BDA8B /* SVRadialGradientLayer.m */,
-				0044B07E1D5B1128009BDA8B /* Resources */,
-				0044B0821D5B1128009BDA8B /* Support Files */,
-			);
-			name = SVProgressHUD;
-			path = /Users/subramanibr/Desktop/Thabresh/BackgroundMailTransfer/BackgroundMailTransfer/../../BackgroungMailSender/Pods/SVProgressHUD;
-			sourceTree = "<absolute>";
-		};
-		0044B08E1D5B1128009BDA8B /* MailSource */ = {
-			isa = PBXGroup;
-			children = (
-				0044B0841D5B1128009BDA8B /* Base64Transcoder.h */,
-				0044B0851D5B1128009BDA8B /* Base64Transcoder.m */,
-				0044B0861D5B1128009BDA8B /* HSK_CFUtilities.h */,
-				0044B0871D5B1128009BDA8B /* HSK_CFUtilities.m */,
-				0044B0881D5B1128009BDA8B /* NSData+Base64Additions.h */,
-				0044B0891D5B1128009BDA8B /* NSData+Base64Additions.m */,
-				0044B08A1D5B1128009BDA8B /* NSStream+SKPSMTPExtensions.h */,
-				0044B08B1D5B1128009BDA8B /* NSStream+SKPSMTPExtensions.m */,
-				0044B08C1D5B1128009BDA8B /* SKPSMTPMessage.h */,
-				0044B08D1D5B1128009BDA8B /* SKPSMTPMessage.m */,
-			);
-			name = MailSource;
-			path = ../../Thabresh/BackgroundMailTransfer/BackgroundMailTransfer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,8 +294,7 @@
 				0044B04F1D5B10D0009BDA8B /* LaunchScreen.storyboard in Resources */,
 				0044B04C1D5B10D0009BDA8B /* Assets.xcassets in Resources */,
 				0044B04A1D5B10CF009BDA8B /* Main.storyboard in Resources */,
-				0044B0941D5B1128009BDA8B /* SVProgressHUD.xcconfig in Resources */,
-				0044B0931D5B1128009BDA8B /* SVProgressHUD.bundle in Resources */,
+				0044B0D21D5B1B55009BDA8B /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,19 +319,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0044B0971D5B1128009BDA8B /* HSK_CFUtilities.m in Sources */,
-				0044B08F1D5B1128009BDA8B /* SVIndefiniteAnimatedView.m in Sources */,
+				0044B0C31D5B1B43009BDA8B /* HSK_CFUtilities.m in Sources */,
+				0044B0D11D5B1B55009BDA8B /* SVProgressAnimatedView.m in Sources */,
+				0044B0C51D5B1B43009BDA8B /* NSStream+SKPSMTPExtensions.m in Sources */,
+				0044B0D01D5B1B55009BDA8B /* SVIndefiniteAnimatedView.m in Sources */,
+				0044B0C61D5B1B43009BDA8B /* SKPSMTPMessage.m in Sources */,
 				0044B0441D5B10CF009BDA8B /* AppDelegate.m in Sources */,
-				0044B0961D5B1128009BDA8B /* Base64Transcoder.m in Sources */,
-				0044B0921D5B1128009BDA8B /* SVRadialGradientLayer.m in Sources */,
-				0044B0911D5B1128009BDA8B /* SVProgressHUD.m in Sources */,
 				0044B0741D5B1121009BDA8B /* TYMailSender.m in Sources */,
-				0044B09A1D5B1128009BDA8B /* SKPSMTPMessage.m in Sources */,
-				0044B0951D5B1128009BDA8B /* SVProgressHUD-dummy.m in Sources */,
-				0044B0981D5B1128009BDA8B /* NSData+Base64Additions.m in Sources */,
+				0044B0D41D5B1B55009BDA8B /* SVRadialGradientLayer.m in Sources */,
+				0044B0C41D5B1B43009BDA8B /* NSData+Base64Additions.m in Sources */,
 				0044B0411D5B10CF009BDA8B /* main.m in Sources */,
-				0044B0991D5B1128009BDA8B /* NSStream+SKPSMTPExtensions.m in Sources */,
-				0044B0901D5B1128009BDA8B /* SVProgressAnimatedView.m in Sources */,
+				0044B0D31D5B1B55009BDA8B /* SVProgressHUD.m in Sources */,
+				0044B0C21D5B1B43009BDA8B /* Base64Transcoder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
